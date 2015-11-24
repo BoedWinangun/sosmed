@@ -1,0 +1,107 @@
+#mask{
+    background-color: #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+}
+
+#contact {
+    background-color: #fff;
+    display: none;
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    top: 90px;
+    width: 600px;
+    z-index: 9999;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 20px;
+}
+
+#close {
+    background: url(../image/close.png) no-repeat right;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    padding: 5px 30px 5px 5px;
+}
+
+#contact_header {
+    background: url(../image/envelope.png) no-repeat left;
+    font-family: arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 5px 5px 10px 60px;
+}
+
+#simpan_pesan {
+    border: none;
+    width: 87px;
+    height: 41px;
+    background: url(../image/submit.png);
+}
+
+#simpan_pesan:hover {
+    cursor: pointer;
+}
+#formPesan img {
+    margin-top: 20px;
+    padding: 3px;
+    border: 1px solid #eae7e7;
+}
+#formPesan #penerima {
+    background: #eae7e7;
+}
+
+/*alert messages*/
+.success,.error {
+    color: #000;
+    display: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+.success {
+    background-color: #9f6;
+    border: 1px solid #0f0;
+}
+
+.error {
+    background-color: #f66;
+    border: 1px solid red;
+}
+
+.replypesan {
+    width: 520px;
+    font-size: 12px;
+    padding-left: 45px;
+}
+
+.replyimg {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+.balas_button, .textbalas {
+    margin-top: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.balas_button:hover {
+    background-color: #efecec;
+}
